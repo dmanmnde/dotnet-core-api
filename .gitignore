@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+!obj/project.assets.json
+[Oo]bj/To*
+
 # User-specific files
 *.suo
 *.user
@@ -21,7 +25,7 @@ x64/
 x86/
 bld/
 [Bb]in/
-[Oo]bj/
+
 [Ll]og/
 
 # Visual Studio 2015 cache/options directory
@@ -286,3 +290,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+
+!obj/project.assets.json
